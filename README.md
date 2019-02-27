@@ -4,7 +4,7 @@ the array of data of th csv
 check example below
 ```
 <?php
-Use case
+//Use case
 generateCSVFile(array('firstname','lastname'),array(array('niyi','philip'),array('ola','dare')));
 ?>
 ```
