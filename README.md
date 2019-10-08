@@ -5,6 +5,9 @@ check example below
 ```php
 <?php
 //Use case
-generateCSVFile(array('firstname','lastname'),array(array('niyi','philip'),array('ola','dare')));
+$heading_array =array('firstname','lastname');
+$data = array(array('niyi','philip'),array('ola','dare'));
+
+generateCSVFile($heading_array,$data);
 ?>
 ```
